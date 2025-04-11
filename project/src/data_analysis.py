@@ -19,14 +19,20 @@ def count_entries(data):
 
 def calculate_summary_statistics(data):
     orgs = []
+    titles = []
 
     for entry in data:
         orgs.append(entry['organisaatio'])
+        titles.append(entry['tyotehtava'])
 
     org_freq = {}
+    title_freq = {}
 
     for org in orgs:
         org_freq[org] = org_freq.get(org, 0) + 1
+    
+    for title in titles:
+        title_freq[title] = title_freq.get(title, 0) + 1
 
     max_org = None
     max_org_count = -1
@@ -34,9 +40,17 @@ def calculate_summary_statistics(data):
         if count > max_org_count:
             max_org = org
             max_org_count = count
+    
+    max_title = None
+    max_title_count = -1
+    for title, count in title_freq.items():
+        if count > max_title_count:
+            max_title = title
+            max_title_count = count
 
     return {
         'most_common_organization': max_org,
+        'most_common_job_title': max_title
     }
 
 def generate_reports(data, summary, txt_file, csv_file):
@@ -46,11 +60,13 @@ def generate_reports(data, summary, txt_file, csv_file):
             # For txt file
             txt.write(f"Total number of entries: {count_entries(data)}\n")
             txt.write(f"Most common organization: {summary['most_common_organization']}\n")
+            txt.write(f"Most common job title: {summary['most_common_job_title']}\n\n")
             
             #For CSV file
             csv.write("Key,Value\n")
             csv.write(f"Total Entries,{count_entries(data)}\n")
             csv.write(f"Most Common Organization,{summary['most_common_organization']}\n")
+            csv.write(f"Most Common Job Title,{summary['most_common_job_title']}\n")
             
     except Exception as e:
         print(f"Error generating reports: {e}")
