@@ -53,7 +53,40 @@ def calculate_summary_statistics(data):
         'most_common_job_title': max_title
     }
 
-def generate_reports(data, summary, txt_file, csv_file):
+def job_posting_analysis(data):
+    org_counts = {}
+
+    for entry in data:
+        org = entry['organisaatio']
+        org_counts[org] = org_counts.get(org, 0) + 1
+
+    count_values = list(org_counts.values())
+
+    total = 0
+    for val in count_values:
+        total += val
+    average = total / len(count_values)
+
+    # Manual min/max
+    min_val = min(count_values)
+    max_val = max(count_values)
+
+    # Standard deviation
+    variance = 0
+    for val in count_values:
+        variance += (val - average) ** 2
+    stddev = (variance / len(count_values)) ** 0.5
+
+    return {
+        'total_postings': total,
+        'average': average,
+        'min': min_val,
+        'max': max_val,
+        'stddev': stddev,
+        'organization_counter': org_counts
+    }
+
+def generate_reports(data, summary, analysis, txt_file, csv_file):
     try:
         with open(txt_file, 'w') as txt, open(csv_file, 'w') as csv:
             
@@ -68,6 +101,25 @@ def generate_reports(data, summary, txt_file, csv_file):
             csv.write(f"Most Common Organization,{summary['most_common_organization']}\n")
             csv.write(f"Most Common Job Title,{summary['most_common_job_title']}\n")
             
+            
+            # Job Posting Stats
+            txt.write("Job Posting Analysis by organization\n")
+            txt.write("======================================\n")
+            txt.write(f"{'Metric':<35}{'Value':>10}\n")
+            txt.write("-" * 45 + "\n")
+            txt.write(f"{'Total postings':<35}{analysis['total_postings']}\n")
+            txt.write(f"{'Average postings per organization':<35}{analysis['average']:.2f}\n")
+            txt.write(f"{'Minimum postings':<35}{analysis['min']}\n")
+            txt.write(f"{'Maximum postings':<35}{analysis['max']}\n")
+            txt.write(f"{'Standard deviation':<35}{analysis['stddev']:.2f}\n\n")
+
+            csv.write(f"Total Postings,{analysis['total_postings']}\n")
+            csv.write(f"Average,{analysis['average']:.2f}\n")
+            csv.write(f"Minimum,{analysis['min']}\n")
+            csv.write(f"Maximum,{analysis['max']}\n")
+            csv.write(f"Standard Deviation,{analysis['stddev']:.2f}\n")
+
+            
     except Exception as e:
         print(f"Error generating reports: {e}")
 
@@ -79,9 +131,11 @@ if __name__ == "__main__":
     if data:
         print(f"Number of entries: {count_entries(data)}")
         summary_statistics = calculate_summary_statistics(data)
+        job_analysis = job_posting_analysis(data)
         
         generate_reports(
             data,
-            summary_statistics, 
+            summary_statistics,
+            job_analysis, 
             'report.txt', 
             'report.csv')
