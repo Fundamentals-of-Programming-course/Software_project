@@ -3,7 +3,7 @@ Most common organization: Kasvatus ja oppiminen, Perusopetus
 Most common job title: Luokanopettaja, Uomarinteen koulu
 
 Job Posting Analysis by organization
-======================================
+=============================================
 Metric                                  Value
 ---------------------------------------------
 Total postings                     167

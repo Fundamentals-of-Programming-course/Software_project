@@ -14,9 +14,13 @@ def load_json(file_url):
         print("Please check your internet connection or the URL and try again.\n")
         return None
 
+# Function to count the number of entries
+# This function takes the data as input and returns the number of entries.
 def count_entries(data):
     return len(data)
 
+# Function to calculate summary statistics
+# This function takes the data as input and returns a dictionary with the most common organization and job title.
 def calculate_summary_statistics(data):
     orgs = []
     titles = []
@@ -53,6 +57,9 @@ def calculate_summary_statistics(data):
         'most_common_job_title': max_title
     }
 
+# Function to analyze job postings by organization
+# This function counts the number of job postings for each organization
+# and calculates the total, average, minimum, maximum, and standard deviation of postings.
 def job_posting_analysis(data):
     org_counts = {}
 
@@ -86,6 +93,8 @@ def job_posting_analysis(data):
         'organization_counter': org_counts
     }
 
+# Function to generate reports
+# This function generates a text and CSV report based on the data, summary statistics, and job posting analysis.
 def generate_reports(data, summary, analysis, txt_file, csv_file):
     try:
         with open(txt_file, 'w') as txt, open(csv_file, 'w') as csv:
@@ -104,7 +113,7 @@ def generate_reports(data, summary, analysis, txt_file, csv_file):
             
             # Job Posting Stats
             txt.write("Job Posting Analysis by organization\n")
-            txt.write("======================================\n")
+            txt.write("=" * 45 + "\n")
             txt.write(f"{'Metric':<35}{'Value':>10}\n")
             txt.write("-" * 45 + "\n")
             txt.write(f"{'Total postings':<35}{analysis['total_postings']}\n")
