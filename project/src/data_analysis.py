@@ -93,9 +93,20 @@ def job_posting_analysis(data):
         'organization_counter': org_counts
     }
 
+# Filter and count job titles for a specific organization
+# This function takes the data and an organization name as input and returns a dictionary with job titles as keys and their counts as values.
+# It iterates through the data, checking if the organization matches the input, and updates the counts accordingly.
+def filter_and_count_job_titles(data, org_name):
+    job_counts = {}
+    for entry in data:
+        if entry['organisaatio'] == org_name:
+            title = entry['tyotehtava']
+            job_counts[title] = job_counts.get(title, 0) + 1
+    return job_counts
+
 # Function to generate reports
 # This function generates a text and CSV report based on the data, summary statistics, and job posting analysis.
-def generate_reports(data, summary, analysis, txt_file, csv_file):
+def generate_reports(data, summary, analysis, specific_org, job_titles, txt_file, csv_file):
     try:
         with open(txt_file, 'w') as txt, open(csv_file, 'w') as csv:
             
@@ -114,21 +125,52 @@ def generate_reports(data, summary, analysis, txt_file, csv_file):
             # Job Posting Stats
             txt.write("Job Posting Analysis by organization\n")
             txt.write("=" * 45 + "\n")
-            txt.write(f"{'Metric':<35}{'Value':>10}\n")
+            txt.write(f"{'Statistics':<35} | {'Value'}\n")
             txt.write("-" * 45 + "\n")
-            txt.write(f"{'Total postings':<35}{analysis['total_postings']}\n")
-            txt.write(f"{'Average postings per organization':<35}{analysis['average']:.2f}\n")
-            txt.write(f"{'Minimum postings':<35}{analysis['min']}\n")
-            txt.write(f"{'Maximum postings':<35}{analysis['max']}\n")
-            txt.write(f"{'Standard deviation':<35}{analysis['stddev']:.2f}\n\n")
+            txt.write(f"{'Total postings':<35} | {analysis['total_postings']}\n")
+            txt.write(f"{'Average postings per organization':<35} | {analysis['average']:.2f}\n")
+            txt.write(f"{'Minimum postings':<35} | {analysis['min']}\n")
+            txt.write(f"{'Maximum postings':<35} | {analysis['max']}\n")
+            txt.write(f"{'Standard deviation':<35} | {analysis['stddev']:.2f}\n\n")
 
             csv.write(f"Total Postings,{analysis['total_postings']}\n")
             csv.write(f"Average,{analysis['average']:.2f}\n")
             csv.write(f"Minimum,{analysis['min']}\n")
             csv.write(f"Maximum,{analysis['max']}\n")
             csv.write(f"Standard Deviation,{analysis['stddev']:.2f}\n")
-
             
+           ## Job postings by organization 
+            txt.write("Postings by each organization:\n")
+            txt.write("=" * 100 + "\n")
+            txt.write(f"{'Organization':<50}{'Number of job posted':>10}\n")
+            txt.write("-" * 100 + "\n")
+            csv.write("Organization,Number of job posted\n")
+            
+            # Sort the organizations by count in descending order
+            # This is done by creating a list of tuples and sorting it
+            org_items = list(analysis['organization_counter'].items())
+            for i in range(len(org_items)):
+                for j in range(i + 1, len(org_items)):
+                    if org_items[i][1] < org_items[j][1]:
+                        org_items[i], org_items[j] = org_items[j], org_items[i]
+            
+            # Write the sorted organizations to the text and CSV files
+            for org, count in org_items:
+                txt.write(f"{org:<50}{count:>10}\n")
+                csv.write(f"\"{org}\",{count}\n")
+
+            # Job titles posted by a specific organization
+            txt.write(f"\nJob titles posted by '{specific_org}'\n")
+            txt.write("=" * 100 + "\n")
+            txt.write(f"{'Job Title':<50}{'Number of job posted':>10}\n")
+            txt.write("-" * 100 + "\n")
+            csv.write(f"\nJob Titles ({specific_org}),Job Title,Number of job posted\n")
+
+            job_items = list(job_titles.items())
+            for title, count in job_items:
+                txt.write(f"{title:<50}{count:>10}\n")
+                csv.write(f"\"{title}\",{count}\n")
+                
     except Exception as e:
         print(f"Error generating reports: {e}")
 
@@ -141,10 +183,14 @@ if __name__ == "__main__":
         print(f"Number of entries: {count_entries(data)}")
         summary_statistics = calculate_summary_statistics(data)
         job_analysis = job_posting_analysis(data)
+        specific_org = "Kasvatus ja oppiminen, Toisen asteen koulutus"
+        job_titles = filter_and_count_job_titles(data, specific_org)
         
         generate_reports(
             data,
             summary_statistics,
             job_analysis, 
+            specific_org,
+            job_titles,
             'report.txt', 
             'report.csv')
