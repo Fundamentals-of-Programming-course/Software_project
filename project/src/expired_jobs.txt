@@ -1,0 +1,21 @@
+Total expired job postings: 16
+Expired Job Postings
+====================================================================================================
+Job Title                          Organization                              Deadline
+----------------------------------------------------------------------------------------------------
+Varhaiskasvatuksen opettaja, Ilvespuiston päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11
+Luokanopettaja, Martinlaakson kouluKasvatus ja oppiminen, Perusopetus      2025-04-11
+Päätoiminen tuntiopettaja ruotsin kieli,  Mikkolan kouluKasvatus ja oppiminen, Perusopetus      2025-04-11
+Kouluvalmentaja, Havukosken koulu  Kasvatus ja oppiminen, Perusopetus      2025-04-11
+Varhaiskasvatuksen opettaja, Lystilän päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11
+Maksatuksen valmistelijaharjoittelija, kesätyöKonserninjohto ja elinvoima, Työllisyyden ja kotoutumisen palvelualue     2025-04-11
+Luokanopettaja, Kytöpuiston koulu  Kasvatus ja oppiminen, Perusopetus      2025-04-11
+Kouluvalmentaja, Uomarinteen koulu Kasvatus ja oppiminen, Perusopetus      2025-04-11
+Matematiikan lehtori, Ylästön kouluKasvatus ja oppiminen, Perusopetus      2025-04-11
+Luokanopettaja, Rajatorpan koulu   Kasvatus ja oppiminen, Perusopetus      2025-04-11
+Vammaisopetuksen erityisluokanopettaja 2 virkaa, Kanniston koulu, VantaaKasvatus ja oppiminen, Perusopetus      2025-04-11
+Varhaiskasvatuksen sosionomi, Latupuiston päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11
+Kiinteistöalan harjoittelija, kesätyö korkeakouluopiskelijalleKaupunkiympäristö, Kiinteistöt ja tilat     2025-04-11
+Varhaiskasvatuksen sosionomi, Suitsikujan päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11
+Varhaiskasvatuksen opettaja, Tammiston päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11
+Varhaiskasvatuksen opettaja, Lintukallion päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-11

@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import ssl
+from datetime import datetime
 
 def load_json(file_url):
     try:
@@ -104,6 +105,32 @@ def filter_and_count_job_titles(data, org_name):
             job_counts[title] = job_counts.get(title, 0) + 1
     return job_counts
 
+# Function to check application deadlines
+# This function checks the application deadlines in the data and returns a dictionary with counts of expired and open postings.
+# It uses the datetime module to compare the current date with the deadline date.
+def check_application_deadlines(data):
+    expired = []
+    open_now = []
+
+    for entry in data:
+        deadline_str = entry.get('haku_paattyy_pvm')
+        if deadline_str:
+            try:
+                deadline_date = datetime.strptime(deadline_str, "%Y-%m-%d")
+                if deadline_date < datetime.today():
+                    expired.append(entry)
+                else:
+                    open_now.append(entry)
+            except ValueError:
+                print(f"Invalid date format in entry: {deadline_str}")
+    
+    return {
+        "expired_count": len(expired),
+        "open_count": len(open_now),
+        "expired_postings": expired,
+        "open_postings": open_now
+    }
+
 # Function to generate reports
 # This function generates a text and CSV report based on the data, summary statistics, and job posting analysis.
 def generate_reports(data, summary, analysis, specific_org, job_titles, txt_file, csv_file):
@@ -174,17 +201,42 @@ def generate_reports(data, summary, analysis, specific_org, job_titles, txt_file
     except Exception as e:
         print(f"Error generating reports: {e}")
 
+# Function to generate a report of expired job postings
+def generate_expired_jobs_report(expired_data, output_file):
+    try:
+        with open(output_file, 'w') as file:
+            
+            file.write(f"Total expired job postings: {len(expired_data)}\n")
+            file.write("Expired Job Postings\n")
+            file.write("=" * 100 + "\n")
+            file.write(f"{'Job Title':<35}{'Organization':<35}{'Deadline':>15}\n")
+            file.write("-" * 100 + "\n")
+            for entry in expired_data:
+                title = entry.get('tyotehtava', 'Unknown')
+                org = entry.get('organisaatio', 'Unknown')
+                deadline = entry.get('haku_paattyy_pvm', 'Unknown')
+                file.write(f"{title:<35}{org:<35}{deadline:>15}\n")
+                
+        print(f"Expired job postings written to: {output_file}")
+    except Exception as e:
+        print(f"Failed to write expired jobs report: {e}")
+
 # Testing the function
 if __name__ == "__main__":
     url = 'http://gis.vantaa.fi/rest/tyopaikat/v1/kaikki'
     data = load_json(url)
     
     if data:
-        print(f"Number of entries: {count_entries(data)}")
+        deadlines = check_application_deadlines(data)
+        open_data = deadlines['open_postings']
+        expired_data = deadlines['expired_postings']
+        
         summary_statistics = calculate_summary_statistics(data)
         job_analysis = job_posting_analysis(data)
         specific_org = "Kasvatus ja oppiminen, Toisen asteen koulutus"
         job_titles = filter_and_count_job_titles(data, specific_org)
+        
+        print(f"Number of entries: {count_entries(data)}")
         
         generate_reports(
             data,
@@ -194,3 +246,7 @@ if __name__ == "__main__":
             job_titles,
             'report.txt', 
             'report.csv')
+        
+        generate_expired_jobs_report(
+            expired_data,
+            'expired_jobs.txt')
