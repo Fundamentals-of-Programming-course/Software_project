@@ -115,6 +115,28 @@ http://gis.vantaa.fi/rest/tyopaikat/v1/kaikki
 - Any invalid dates in the dataset are caught and reported.
 - The script does not require external libraries beyond Python's standard library.
 
+
+## 🧪 Running Tests
+Unit tests are provided in test_project.py to ensure the correctness of each function in data_analysis.
+
+### ▶ Requirements
+pytest must be installed:
+```bash
+pip install pytest
+```
+
+### ▶ Run the tests
+Use the following command in your terminal from the project root:
+```bash
+pytest -v test_project.py
+```
++ This will:
+   + Test counting entries
+   + Verify the most common organization and job title
+   + Check statistical analysis
+   + Confirm filtering by organization
+   + Validate deadline handling (open vs. expired)
+
 ## License
 
 This script is intended for academic and educational purposes. Data usage should comply with the [City of Vantaa](http://gis.vantaa.fi) API terms.
