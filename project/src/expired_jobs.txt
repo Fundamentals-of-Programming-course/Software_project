@@ -1,4 +1,4 @@
-Total expired job postings: 16
+Total expired job postings: 17
 Expired Job Postings
 ====================================================================================================
 Job Title                          Organization                              Deadline
@@ -11,6 +11,7 @@ Varhaiskasvatuksen opettaja, Lystilän päiväkotiKasvatus ja oppiminen, Varhais
 Maksatuksen valmistelijaharjoittelija, kesätyöKonserninjohto ja elinvoima, Työllisyyden ja kotoutumisen palvelualue     2025-04-11
 Luokanopettaja, Kytöpuiston koulu  Kasvatus ja oppiminen, Perusopetus      2025-04-11
 Kouluvalmentaja, Uomarinteen koulu Kasvatus ja oppiminen, Perusopetus      2025-04-11
+Kouluvalmentaja, Kytöpuiston koulu Kasvatus ja oppiminen, Perusopetus      2025-04-13
 Matematiikan lehtori, Ylästön kouluKasvatus ja oppiminen, Perusopetus      2025-04-11
 Luokanopettaja, Rajatorpan koulu   Kasvatus ja oppiminen, Perusopetus      2025-04-11
 Vammaisopetuksen erityisluokanopettaja 2 virkaa, Kanniston koulu, VantaaKasvatus ja oppiminen, Perusopetus      2025-04-11

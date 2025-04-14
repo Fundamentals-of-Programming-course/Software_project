@@ -1,41 +1,120 @@
-# Analyzing Open Data in JSON Format
 
-## Learning Goals
-Through this assignment, you will learn to collaboratively write and test a Python program that processes and analyzes a dataset in JSON format, chosen by your group from an open data source.
+# Job Postings Analyzer
 
----
+This Python script analyzes public job postings from the City of Vantaa's open API. It fetches job data, computes summary statistics, filters job titles, and checks for expired application deadlines. Results are saved in `.txt` and `.csv` reports.
 
-## Background
-Develop a Python-based data analysis program that reads a JSON file, processes it to extract key insights, and writes a summary report. You will use a real-world dataset chosen from [Helsinki Region Infoshare](https://hri.fi/), which provides open datasets in JSON format. The goal is to practice working with files, loops, conditionals, and lists while analyzing data collaboratively.
+## Features
 
-You will analyze the dataset by calculating summary statistics, such as total entries, average values, or the most frequent occurrences, and present the results in a readable report. If time allows, you can add additional features such as filtering the data by date or further data exploration.
+- 📥 Fetch job data from a live JSON API
+- 📊 Count total job entries
+- 🏢 Identify most common organizations and job titles
+- 📈 Analyze statistics: total, average, min, max, and standard deviation of job postings
+- 🔍 Filter job titles by organization
+- ⏳ Check open and expired job application deadlines
+- 📝 Generate detailed reports
 
----
+## Requirements
 
-## Preparatory Actions
-1. **Choose a Dataset**: Visit [Helsinki Region Infoshare](https://hri.fi/) and search for a suitable dataset in JSON format that interests your group. Ensure that the dataset contains structured data suitable for analysis.
-   
-2. **Create a Repository**: Create a new GitHub repository for your group. You can follow the instructions at [GitHub Docs: Creating a new repository](https://docs.github.com/en/get-started/quickstart/create-a-repo).
-   
-3. **Protect the Main Branch**: As a group, protect the main branch of your repository by setting up branch protection. Follow the steps in [GitHub Docs: Managing a branch protection rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule) to require pull requests before merging.
+- Python 3.x
+- Libraries:
+  - `json` (built-in)
+  - `ssl` (built-in)
+- Internet access (to retrieve live job data)
 
-4. **Collaborate via GitHub Issues**: Optionally, use GitHub Issues to divide the workload among your group members. For guidance, see [GitHub Docs: Quickstart for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart).
+## Usage
 
----
+1. Run the script:
+   ```bash
+   python project/src/data_analysis.py
+   ```
 
-## Workflow Actions
-1. **Implement JSON Data Parser**: Write a Python function to load and parse the JSON file chosen by your group. Ensure that you handle any potential errors that may occur when loading the file.
-   
-2. **Data Analysis Functions**: Implement the following key functions:
-   - Count the total number of entries in the dataset.
-   - Calculate summary statistics (e.g., average values, most frequent entries).
-   - Optionally, add filters for analyzing data by specific conditions (e.g., date range).
-   
-3. **Report Generation**: Implement a function to write the results of your analysis to a report file (e.g., `report.txt`). The report should summarize key findings, such as total entries, most popular occurrences, and any statistics you calculate.
+2. Output files will be generated:
+   - `report.txt` – Human-readable summary report
+   - `report.csv` – CSV-formatted summary
+   - `expired_jobs.txt` – Expired job postings
 
----
+## API Source
 
-## Testing and Documentation
-- Test your program manually or by writing additional test scripts if necessary. Ensure that all code is properly documented and each function is well-commented to explain its purpose and logic.
+Data is retrieved from:
+```
+http://gis.vantaa.fi/rest/tyopaikat/v1/kaikki
+```
 
-- Before submitting the assignment, make sure that all code changes are merged into the main branch of your GitHub repository. Follow instructions on Canvas for submitting your assignment.
+## Functions Overview
+
+| Function | Purpose |
+|---------|---------|
+| `load_json(url)` | Load JSON data from a URL |
+| `count_entries(data)` | Count total entries in data |
+| `calculate_summary_statistics(data)` | Get most common organization and job title |
+| `job_posting_analysis(data)` | Analyze statistical data by organization |
+| `filter_and_count_job_titles(data, org_name)` | Count job titles within a specific organization |
+| `check_application_deadlines(data)` | Identify open and expired job postings |
+| `generate_reports(...)` | Create text and CSV reports |
+| `generate_expired_jobs_report(expired_data, output_file)` | List all expired job entries |
+
+## Output Example
+
+- **report.txt**
+  ```
+  Total number of entries: 200
+  Most common organization: Education Services
+  Most common job title: Teacher
+
+  Job Posting Analysis by organization
+  =============================================
+  Total postings..........................     835
+  Average postings per organization.......    27.83
+  Minimum postings.........................      1
+  Maximum postings.........................    153
+  Standard deviation.......................    34.52
+  ```
+- **Postings by each organization:**
+
+  ============================================================
+  | Organization                                              | Postings |
+  |-----------------------------------------------------------|----------|
+  | Kasvatus ja oppiminen, Perusopetus                        | 108      |
+  | Kasvatus ja oppiminen, Varhaiskasvatus                    | 45       |
+  | Vanda stad, Fostran och lärande, Svenskspråkiga servicen  | 8        |
+  | Kasvatus ja oppiminen, Toisen asteen koulutus             | 4        |
+  | Vanda stad, Fostran och lärande, Grundläggande utbildningen | 3      |
+  | Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut | 3   |
+  | Kaupunkiympäristö, Kiinteistöt ja tilat                   | 2        |
+  | Kaupunkikulttuuri ja hyvinvointi, Elinikäinen oppiminen   | 2        |
+  | Kaupunkiympäristö, Kaupunkirakenne ja ympäristö           | 2        |
+  | Konserninjohto ja elinvoima, Henkilöstöpalvelut           | 2        |
+  | Vantaan kaupunki                                          | 1        |
+ 
+
+- **Job titles posted by 'Kasvatus ja oppiminen, Perusopetu**
+
+========================================================================
+| Job Title                                                |  Number of job posted |
+|-----------------------------------------------------------|----------|
+| Matematiikan lehtorin sijaisuus lukuvuodeksi, Martinlaakson koulu                        | 1    |
+| Päätoiminen tuntiopettaja, resurssiopettaja, Askiston koulu                    | 1       |
+| Erityisluokanopettaja (vammaisopetus) Kartanonkosken koulu  | 1        |
+| Luokanopettaja, Jokiniemen koulu             | 2        |
+| Erityisluokanopettaja, Jokiniemen koulu  | 1      |
+| Päätoiminen tuntiopettaja, suomi toisena kielenä, Jokiniemen koulu| 1   |
+| Lehtori (matematiikka, fysiikka, yhteiskuntaoppi), Peltolan koulu                   | 1        |
+
+- **expired_jobs.txt**
+  ```
+  Expired Job Postings
+  ==============================================================================
+  Job Title                       Organization                     Deadline
+  ------------------------------------------------------------------------------
+  Kindergarten Teacher            Early Childhood Services         2024-11-30
+  ```
+
+## Notes
+
+- Deadlines are compared using the system’s current date (`datetime.today()`).
+- Any invalid dates in the dataset are caught and reported.
+- The script does not require external libraries beyond Python's standard library.
+
+## License
+
+This script is intended for academic and educational purposes. Data usage should comply with the [City of Vantaa](http://gis.vantaa.fi) API terms.
