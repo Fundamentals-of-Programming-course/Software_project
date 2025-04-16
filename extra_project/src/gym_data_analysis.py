@@ -64,8 +64,24 @@ def calculate_statistics(data, key):
         }
     return {}
 
+# Filter the dataset based on a date range and two specific key-value pairs
+# This function returns entries that fall within the specified date range and match the given key-value pairs.
+def filter_by_date_and_key(data, 
+    date_key, start_date, end_date, 
+    filter_key, filter_value, 
+    filter_key2, filter_value2
+    ):
+    filtered_data = []
+    for entry in data:
+        
+        if (date_key in entry and filter_key in entry) and (date_key in entry and filter_key2 in entry):
+            date_value = entry[date_key]
+            if (start_date <= date_value <= end_date and entry[filter_key] == filter_value) and (start_date <= date_value <= end_date and entry[filter_key2] == filter_value2):
+                filtered_data.append(entry)
+    return filtered_data
+
 # Generate a report of the analysis results
-def generate_report(filename, total_entries, frequent_entries, stats):
+def generate_report(filename, total_entries, frequent_entries, stats, filtered_data):
     with open(filename, 'w') as report:
         report.write(f"Total Entries: {total_entries}\n")
         
@@ -90,6 +106,21 @@ def generate_report(filename, total_entries, frequent_entries, stats):
             # Writing table rows for statistics
             for stat, value in stats.items():
                 report.write(f"{(stat):<25} {(value):>10}\n")
+        
+         # Writing table header for filtered data if available         
+        if filtered_data:
+            first_entry = filtered_data[0]
+            headers = list(first_entry.keys())
+            filer_name = "FILTERED DATA"
+            report.write(f"\n{filer_name:>50}\n")
+            report.write("=" * 100 + "\n")
+            report.write(f"{headers[0]:<25} {headers[1]:>20} {headers[2]:>20} {headers[4]:>20}\n")
+            report.write("-" * 100 + "\n")
+            
+            # Writing table rows
+            for entry in filtered_data:
+                if len(headers) >= 2:
+                    report.write(f"{str(entry.get(headers[0], '')):<25} {str(entry.get(headers[1], '')):>20} {str(entry.get(headers[2], '')):>20}{str(entry.get(headers[4], '')):>20}\n")
     
 
 # Testing function 
@@ -102,11 +133,20 @@ if __name__ == "__main__":
         # Example key for frequent entries and statistics
         frequent = most_frequent_entries(data, "area")
         statistics_data = calculate_statistics(data, "usageMinutes") # should be numeric 
+        
+        # Filter data for a specific date range and two specific key-value pairs
+        # Note: Ensure that the date format in the dataset matches the format used in the filter
+        filtered_data = filter_by_date_and_key(data, 
+                        "utcdate", "2021-08-01T00:00:00.000Z", "2021-08-31T23:59:59.999Z", 
+                        "groupId", "OG30" , 
+                        "area", "Pirkkola"
+                   )
     
     generate_report(
             "gym_data_analysis.txt",
             total_entries,
             frequent,
-            statistics_data
+            statistics_data,
+            filtered_data 
         )
     print("Report generated successfully.")
