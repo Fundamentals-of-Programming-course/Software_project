@@ -81,7 +81,7 @@ def filter_by_date_and_key(data,
     return filtered_data
 
 # Generate a report of the analysis results
-def generate_report(filename, total_entries, frequent_entries, stats, filtered_data):
+def generate_report(filename, total_entries, frequent_entries, stats, filtered_data,count_appearance ):
     with open(filename, 'w') as report:
         report.write(f"Total Entries: {total_entries}\n")
         
@@ -121,7 +121,13 @@ def generate_report(filename, total_entries, frequent_entries, stats, filtered_d
             for entry in filtered_data:
                 if len(headers) >= 2:
                     report.write(f"{str(entry.get(headers[0], '')):<25} {str(entry.get(headers[1], '')):>20} {str(entry.get(headers[2], '')):>20}{str(entry.get(headers[4], '')):>20}\n")
-    
+
+        # Writing the number of appearance
+        report.write("\nThe number of appearance:\n")
+        report.write("=" * 35 + "\n")
+        for key, values in count_appearance.items():
+            report.write(f"{key}: {values}\n")
+            
 
 # Testing function 
 if __name__ == "__main__":
@@ -138,15 +144,18 @@ if __name__ == "__main__":
         # Note: Ensure that the date format in the dataset matches the format used in the filter
         filtered_data = filter_by_date_and_key(data, 
                         "utcdate", "2021-08-01T00:00:00.000Z", "2021-08-31T23:59:59.999Z", 
-                        "groupId", "OG30" , 
-                        "area", "Pirkkola"
+                        "groupId", "OG10", 
+                        "area", "Hietaniemi"
                    )
+        filtered_entries_count = count_entries(filtered_data)
+        count_appearance = {"Number of filtered entries": filtered_entries_count}
     
     generate_report(
             "gym_data_analysis.txt",
             total_entries,
             frequent,
             statistics_data,
-            filtered_data 
+            filtered_data,
+            count_appearance 
         )
     print("Report generated successfully.")
