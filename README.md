@@ -38,6 +38,32 @@ This Python script analyzes public job postings from the City of Vantaa's open A
 Data is retrieved from:
 ```
 http://gis.vantaa.fi/rest/tyopaikat/v1/kaikki
+
+Example data entry:
+  {
+      "id": 1,
+      "organisaatio": "Kasvatus ja oppiminen, Varhaiskasvatus",
+      "ammattiala": "Varhaiskasvatuksen opettaja ja sosionomi",
+      "tyotehtava": "Varhaiskasvatuksen kehittäjäopettaja",
+      "tyoavain": "https://vantaa.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=16818",
+      "osoite": "",
+      "haku_paattyy_pvm": "2025-04-25",
+      "x": 25.002805874123947,
+      "y": 60.33124036740038,
+      "linkki": "https://vantaa.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=16818"
+    },
+    {
+      "id": 2,
+      "organisaatio": "Kasvatus ja oppiminen, Perusopetus",
+      "ammattiala": "Opetusala",
+      "tyotehtava": "Erityisluokanopettaja, Martinlaakson koulu",
+      "tyoavain": "https://vantaa.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=16576",
+      "osoite": "Martinlaaksonpolku 9, 01620 Vantaa",
+      "haku_paattyy_pvm": "2025-04-24",
+      "x": 24.845235172807822,
+      "y": 60.27659037213999,
+      "linkki": "https://vantaa.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=16576"
+    },
 ```
 
 ## Functions Overview
