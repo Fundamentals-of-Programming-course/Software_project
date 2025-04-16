@@ -4,8 +4,16 @@ The Most Frequent Entries:
 ======================================
 Area                       Frequency
 --------------------------------------
-OG10                             913
-OG23                             774
-OG30                             740
-OG41                             710
-OG70                             174
+Paloheinä                       1674
+Hietaniemi                      1284
+Pirkkola                         783
+
+Summary Statistics on usageMinutes:
+======================================
+Statistics                     Value
+--------------------------------------
+Average                       215.05
+Maximum                        711.0
+Minimum                          0.0
+Median                         200.0
+Standard deviation            132.96
