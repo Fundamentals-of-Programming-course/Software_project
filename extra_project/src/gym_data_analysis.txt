@@ -1,1 +1,11 @@
 Total Entries: 3741
+
+The Most Frequent Entries:
+======================================
+Area                       Frequency
+--------------------------------------
+OG10                             913
+OG23                             774
+OG30                             740
+OG41                             710
+OG70                             174
