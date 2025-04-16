@@ -80,8 +80,15 @@ def filter_by_date_and_key(data,
                 filtered_data.append(entry)
     return filtered_data
 
+# Get all unique key from the dataset, for example groupId
+# This function returns a sorted list of unique group IDs found in the dataset.
+# Note: This function is not used in the main analysis but can be useful for further analysis.
+def get_all_group_ids(data):
+    return sorted(set(entry.get("groupId") for entry in data if "groupId" in entry))
+
+
 # Generate a report of the analysis results
-def generate_report(filename, total_entries, frequent_entries, stats, filtered_data,count_appearance ):
+def generate_report(filename, total_entries, frequent_entries, stats, filtered_data,count_appearance, group_ids ):
     with open(filename, 'w') as report:
         report.write(f"Total Entries: {total_entries}\n")
         
@@ -127,6 +134,12 @@ def generate_report(filename, total_entries, frequent_entries, stats, filtered_d
         report.write("=" * 35 + "\n")
         for key, values in count_appearance.items():
             report.write(f"{key}: {values}\n")
+        
+        # Writing all unique key for example: groupIds
+        report.write("\nAll Unique Group IDs:\n")
+        report.write("=" * 35 + "\n")
+        for gid in group_ids:
+            report.write(f"{gid}\n")
             
 
 # Testing function 
@@ -149,6 +162,9 @@ if __name__ == "__main__":
                    )
         filtered_entries_count = count_entries(filtered_data)
         count_appearance = {"Number of filtered entries": filtered_entries_count}
+        
+        # Get unique value in a specific key
+        group_ids = get_all_group_ids(data)
     
     generate_report(
             "gym_data_analysis.txt",
@@ -156,6 +172,7 @@ if __name__ == "__main__":
             frequent,
             statistics_data,
             filtered_data,
-            count_appearance 
+            count_appearance,
+            group_ids
         )
     print("Report generated successfully.")

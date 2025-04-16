@@ -57,3 +57,14 @@ utcdate                                   area              groupId         usag
 The number of appearance:
 ===================================
 Number of filtered entries: 31
+
+All Unique Group IDs:
+===================================
+OG10
+OG23
+OG24
+OG30
+OG31
+OG41
+OG70
+OG80
