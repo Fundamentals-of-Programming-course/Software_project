@@ -163,6 +163,185 @@ pytest -v test_project.py
    + Confirm filtering by organization
    + Validate deadline handling (open vs. expired)
 
+
+---
+# Gym Data Analysis 📊 (Extra_project)
+
+This Python project analyzes JSON data from outdoor gym equipment usage in various locations. It generates statistical summaries, identifies the most frequent usage areas, filters entries by conditions, and outputs the results into a formatted report file.
+
+## 📁 Dataset
+
+The data is sourced from:
+- File: `ulkoliikunta-daily-2021.json`
+- Content: Daily usage logs of outdoor gym equipment including:
+  - `utcdate`
+  - `area`
+  - `groupId`
+  - `trackableId`
+  - `usageMinutes`
+  - `sets`
+  - `repetitions`
+
+```
+  {
+    "utcdate": "2021-05-24T00:00:00.000Z",
+    "area": "Hietaniemi",
+    "groupId": "OG10",
+    "trackableId": "OG10_10268",
+    "usageMinutes": 265,
+    "sets": 230,
+    "repetitions": 1729
+  },
+  {
+    "utcdate": "2021-05-24T00:00:00.000Z",
+    "area": "Hietaniemi",
+    "groupId": "OG23",
+    "trackableId": "OG23_10270",
+    "usageMinutes": 236,
+    "sets": 188,
+    "repetitions": 4185
+  },
+```
+
+## 🔧 Features
+
+- Load and parse JSON data with error handling
+- Count total entries
+- Identify the 5 most frequent entries by a given key (e.g. area or groupId)
+- Calculate summary statistics (`average`, `max`, `min`, `median`, `standard deviation`) for numeric fields
+- Filter data based on:
+  - Date range
+  - Two specific field values (e.g. `groupId = OG10` and `area = Hietaniemi`)
+- Get all unique `groupId` values
+- Generate a well-structured analysis report (`gym_data_analysis.txt`)
+
+## Usage
+
+1. Run the script:
+   ```bash
+   python exatra_project/src/gym_data_analysis.py
+   ```
+
+2. Output files will be generated:
+- A text report: `gym_data_analysis.txt`
+- Printed message: `Report generated successfully.`
+
+
+## 📝 Report Contents
+
+- Total entry count
+- Most frequent areas
+- Summary statistics of `usageMinutes`
+- Filtered entries for selected groupId and area
+- Unique groupId values in dataset
+
+---
+
+## 📌 Requirements
+
+- Python 3+
+- No external dependencies required (uses built-in `json`)
+
+---
+
+## 📄 Example Report Output
+Here’s a sample output from `gym_data_analysis.txt`:
+```text
+Example of `gym_data_analysis.txt` Output:
+
+---------------------------------------------------
+Total Entries: 3
+
+The Most Frequent Entries:
+======================================
+Area                      Frequency
+--------------------------------------
+Hietaniemi                      2
+Pirkkola                        1
+
+Summary Statistics on usageMinutes:
+======================================
+Statistics               Value
+--------------------------------------
+Average                   120.0
+Maximum                   150
+Minimum                   90
+Median                    120.0
+Standard deviation        24.49
+
+                             FILTERED DATA
+====================================================================================================
+utcdate                        area               groupId          usageMinutes
+----------------------------------------------------------------------------------------------------
+2021-08-15T00:00:00.000Z    Hietaniemi                OG10                120
+2021-08-20T00:00:00.000Z    Hietaniemi                OG10                150
+
+The number of appearance:
+===================================
+Number of filtered entries: 2
+
+All Unique Group IDs:
+===================================
+OG10
+OG23
+```
+
+## 🧪 Tests
+
+Pytest unit tests are provided for:
+- JSON loading
+- Entry counting
+- Frequency analysis
+- Summary statistics
+- Filtering by key/date
+- Unique `groupId` extraction
+
+To run tests:
+
+```bash
+pytest -v test_gym_data_analysis.py
+```
+---
+# 📂 File Structure
+
+```
+extra_project/
+│
+├── json/
+│   └── ulkoliikunta-daily-2021.json  # Input dataset
+│
+├── src/
+│   └── gym_data_analysis.py      # Main script in extra_project
+│   └── gym_data_analysis.txt     # Output report
+│
+├── test/
+│   ├── __init__.py
+│   └── test_gym_data_analysis.py   # Unit tests using pytest
+│
+project/
+│
+├── json/
+│   └── data.json
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_analysis.py   # Main script in project
+│   ├── expired_jobs.txt   # Output report
+│   ├── report.csv         # Output report
+│   └── report.txt         # Output report
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_data_analysis.py  # Unit tests using pytest
+│
+├── README.md    # Project description
+└──  Task.md     # Tasks description
+```
+
+
+## ✨ Credits
+
+Created for an educational project at Laurea University of Applied Sciences.
 ## License
 
 This script is intended for academic and educational purposes. Data usage should comply with the [City of Vantaa](http://gis.vantaa.fi) API terms.
