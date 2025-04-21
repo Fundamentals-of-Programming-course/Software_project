@@ -83,4 +83,4 @@ def test_get_all_group_ids():
     group_ids = get_all_group_ids(sample_data)
     assert group_ids == ["OG10", "OG23"]
 
-# pytest -v test_gym_data_analysis.py  
+# pytest -v extra_project/test/test_gym_data_analysis.py  

@@ -67,4 +67,4 @@ def test_check_application_deadlines():
     assert len(results['expired_postings']) == 1
     assert len(results['open_postings']) == 2
     
-# Run the tests with this on terminal pytest -v test_data_analysis.py     
+# Run the tests with this on root terminal pytest -v project/test/test_data_analysis.py     

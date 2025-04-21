@@ -1,3 +1,21 @@
+# Software project with Python
+
+## Table of content
+
+- [Job Postings Analyzer](#job-postings-analyzer)
+  + [Usage](#usage)
+  + [API Source](#usage)
+  + [Functions Overview](#functions-overview)
+  + [Output Example](#output-example)
+- [Gym Data Analysis (Extra_project)](#gym-data-analysis-extra_project)
+  + [Dataset](#dataset)
+  + [Features](#features)
+  + [Usage](#usage-1)
+  + [Example Report Output](#example-report-output)
+
+- [File Structure](#file-structure)
+
+
 
 # Job Postings Analyzer
 
@@ -143,7 +161,7 @@ Example data entry:
 
 
 ## 🧪 Running Tests
-Unit tests are provided in test_project.py to ensure the correctness of each function in data_analysis.
+Unit tests are provided in test_data_analysis.py to ensure the correctness of each function in data_analysis.
 
 ### ▶ Requirements
 pytest must be installed:
@@ -154,7 +172,8 @@ pip install pytest
 ### ▶ Run the tests
 Use the following command in your terminal from the project root:
 ```bash
-pytest -v test_project.py
+# Run the tests with this on root terminal 
+pytest -v extra_project/test/test_data_analysis.py 
 ```
 + This will:
    + Test counting entries
@@ -165,10 +184,11 @@ pytest -v test_project.py
 
 
 ---
-# Gym Data Analysis 📊 (Extra_project)
+# Gym Data Analysis (Extra_project) 
 
 This Python project analyzes JSON data from outdoor gym equipment usage in various locations. It generates statistical summaries, identifies the most frequent usage areas, filters entries by conditions, and outputs the results into a formatted report file.
 
+## Dataset
 ## 📁 Dataset
 
 The data is sourced from:
@@ -203,6 +223,7 @@ The data is sourced from:
   },
 ```
 
+## Features
 ## 🔧 Features
 
 - Load and parse JSON data with error handling
@@ -244,6 +265,7 @@ The data is sourced from:
 
 ---
 
+## Example Report Output
 ## 📄 Example Report Output
 Here’s a sample output from `gym_data_analysis.txt`:
 ```text
@@ -299,10 +321,12 @@ Pytest unit tests are provided for:
 To run tests:
 
 ```bash
-pytest -v test_gym_data_analysis.py
+# Run the tests with this on root terminal 
+pytest -v extra_project/test/test_gym_data_analysis.py 
 ```
 ---
-# 📂 File Structure
+# File Structure
+## 📂 File Structure
 
 ```
 extra_project/

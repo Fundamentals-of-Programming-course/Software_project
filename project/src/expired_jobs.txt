@@ -1,20 +1,6 @@
-Total expired job postings: 15
+Total expired job postings: 1
 Expired Job Postings
 ====================================================================================================
 Job Title                          Organization                              Deadline
 ----------------------------------------------------------------------------------------------------
-Päätoiminen tuntiopettaja, rakennusala, Vantaan ammattiopisto VariaKasvatus ja oppiminen, Toisen asteen koulutus     2025-04-16
-Kouluvalmentaja, Kartanonkosken kouluKasvatus ja oppiminen, Perusopetus      2025-04-16
-Timlärare, Helsinge skola          Vanda stad, Fostran och lärande, Grundläggande utbildningen     2025-04-16
-Elevhandledare i bisyssla, Helsinge skolaVanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen     2025-04-16
-Timlärare i svenska och litteratur, företagsamhet och livsåskådningVanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen     2025-04-16
-Päätoiminen tuntiopettaja (ruotsi), Peltolan kouluKasvatus ja oppiminen, Perusopetus      2025-04-16
-Päätoiminen tuntiopettaja (oppilaanohjaus, historia, yhteiskuntaoppi, maantieto)Kasvatus ja oppiminen, Perusopetus      2025-04-16
-Luokanopettaja, Aurinkokiven koulu Kasvatus ja oppiminen, Perusopetus      2025-04-16
-Luokanopettaja, Veromäen koulu     Kasvatus ja oppiminen, Perusopetus      2025-04-16
-Erityisopettaja, Veromäen koulu    Kasvatus ja oppiminen, Perusopetus      2025-04-16
-Luokanopettaja, Jokivarren koulu   Kasvatus ja oppiminen, Perusopetus      2025-04-16
-Erityisluokanopettaja, nuorten työpajatoiminnan tukipalveluiden tiimiKaupunkikulttuuri ja hyvinvointi, Elinikäinen oppiminen     2025-04-16
-Varhaiskasvatuksen opettaja, Hansin ympärivuorokautinen päiväkotiKasvatus ja oppiminen, Varhaiskasvatus     2025-04-16
-Laaja-alainen varhaiskasvatuksen erityisopettaja (LVEO),  Veturin toimintayksikköKasvatus ja oppiminen, Varhaiskasvatus     2025-04-16
-Lehtori , suomi toisena kielenä,  Länsimäen kouluKasvatus ja oppiminen, Perusopetus      2025-04-16
+Luokanopettaja, Keimolanmäen koulu Kasvatus ja oppiminen, Perusopetus      2025-04-21
