@@ -157,8 +157,8 @@ if __name__ == "__main__":
         # Note: Ensure that the date format in the dataset matches the format used in the filter
         filtered_data = filter_by_date_and_key(data, 
                         "utcdate", "2021-09-01T00:00:00.000Z", "2021-09-30T23:59:59.999Z", 
-                        "groupId", "OG23", 
-                        "area", "Paloheinä"
+                        "groupId", "OG10", 
+                        "area", "Hietaniemi"
                    )
         filtered_entries_count = count_entries(filtered_data)
         count_appearance = {"Number of filtered entries": filtered_entries_count}

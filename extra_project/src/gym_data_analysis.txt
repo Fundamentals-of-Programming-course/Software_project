@@ -8,84 +8,44 @@ Paloheinä                       1674
 Hietaniemi                      1284
 Pirkkola                         783
 
-Summary Statistics on usageMinutes:
-======================================
-Statistics                     Value
---------------------------------------
-Average                       215.05
-Maximum                        711.0
-Minimum                          0.0
-Median                         200.0
-Standard deviation            132.96
-
                                      FILTERED DATA
 ====================================================================================================
 utcdate                                   area              groupId         usageMinutes
 ----------------------------------------------------------------------------------------------------
-2021-09-01T00:00:00.000Z             Paloheinä                 OG23                 181
-2021-09-01T00:00:00.000Z             Paloheinä                 OG23                 197
-2021-09-02T00:00:00.000Z             Paloheinä                 OG23                 204
-2021-09-02T00:00:00.000Z             Paloheinä                 OG23                 190
-2021-09-03T00:00:00.000Z             Paloheinä                 OG23                 104
-2021-09-03T00:00:00.000Z             Paloheinä                 OG23                  99
-2021-09-04T00:00:00.000Z             Paloheinä                 OG23                 187
-2021-09-04T00:00:00.000Z             Paloheinä                 OG23                 235
-2021-09-05T00:00:00.000Z             Paloheinä                 OG23                 167
-2021-09-05T00:00:00.000Z             Paloheinä                 OG23                 200
-2021-09-06T00:00:00.000Z             Paloheinä                 OG23                 194
-2021-09-06T00:00:00.000Z             Paloheinä                 OG23                 130
-2021-09-07T00:00:00.000Z             Paloheinä                 OG23                 200
-2021-09-07T00:00:00.000Z             Paloheinä                 OG23                 169
-2021-09-08T00:00:00.000Z             Paloheinä                 OG23                 191
-2021-09-08T00:00:00.000Z             Paloheinä                 OG23                 206
-2021-09-09T00:00:00.000Z             Paloheinä                 OG23                 181
-2021-09-09T00:00:00.000Z             Paloheinä                 OG23                 178
-2021-09-10T00:00:00.000Z             Paloheinä                 OG23                 191
-2021-09-10T00:00:00.000Z             Paloheinä                 OG23                 180
-2021-09-11T00:00:00.000Z             Paloheinä                 OG23                 207
-2021-09-11T00:00:00.000Z             Paloheinä                 OG23                 205
-2021-09-12T00:00:00.000Z             Paloheinä                 OG23                 106
-2021-09-12T00:00:00.000Z             Paloheinä                 OG23                 109
-2021-09-13T00:00:00.000Z             Paloheinä                 OG23                 172
-2021-09-13T00:00:00.000Z             Paloheinä                 OG23                 171
-2021-09-14T00:00:00.000Z             Paloheinä                 OG23                 191
-2021-09-14T00:00:00.000Z             Paloheinä                 OG23                 251
-2021-09-15T00:00:00.000Z             Paloheinä                 OG23                 186
-2021-09-15T00:00:00.000Z             Paloheinä                 OG23                 146
-2021-09-16T00:00:00.000Z             Paloheinä                 OG23                 154
-2021-09-16T00:00:00.000Z             Paloheinä                 OG23                 165
-2021-09-17T00:00:00.000Z             Paloheinä                 OG23                 156
-2021-09-17T00:00:00.000Z             Paloheinä                 OG23                 142
-2021-09-18T00:00:00.000Z             Paloheinä                 OG23                 164
-2021-09-18T00:00:00.000Z             Paloheinä                 OG23                 172
-2021-09-19T00:00:00.000Z             Paloheinä                 OG23                 167
-2021-09-19T00:00:00.000Z             Paloheinä                 OG23                 194
-2021-09-20T00:00:00.000Z             Paloheinä                 OG23                 183
-2021-09-20T00:00:00.000Z             Paloheinä                 OG23                 151
-2021-09-21T00:00:00.000Z             Paloheinä                 OG23                 183
-2021-09-21T00:00:00.000Z             Paloheinä                 OG23                 231
-2021-09-22T00:00:00.000Z             Paloheinä                 OG23                 169
-2021-09-22T00:00:00.000Z             Paloheinä                 OG23                 165
-2021-09-23T00:00:00.000Z             Paloheinä                 OG23                 147
-2021-09-23T00:00:00.000Z             Paloheinä                 OG23                 114
-2021-09-24T00:00:00.000Z             Paloheinä                 OG23                 127
-2021-09-24T00:00:00.000Z             Paloheinä                 OG23                  88
-2021-09-25T00:00:00.000Z             Paloheinä                 OG23                 162
-2021-09-25T00:00:00.000Z             Paloheinä                 OG23                 165
-2021-09-26T00:00:00.000Z             Paloheinä                 OG23                 209
-2021-09-26T00:00:00.000Z             Paloheinä                 OG23                 196
-2021-09-27T00:00:00.000Z             Paloheinä                 OG23                 199
-2021-09-27T00:00:00.000Z             Paloheinä                 OG23                 189
-2021-09-28T00:00:00.000Z             Paloheinä                 OG23                 174
-2021-09-28T00:00:00.000Z             Paloheinä                 OG23                 214
-2021-09-29T00:00:00.000Z             Paloheinä                 OG23                 121
-2021-09-29T00:00:00.000Z             Paloheinä                 OG23                 158
-2021-09-30T00:00:00.000Z             Paloheinä                 OG23                 148
-2021-09-30T00:00:00.000Z             Paloheinä                 OG23                 161
+2021-09-01T00:00:00.000Z            Hietaniemi                 OG10                 360
+2021-09-02T00:00:00.000Z            Hietaniemi                 OG10                 277
+2021-09-03T00:00:00.000Z            Hietaniemi                 OG10                  87
+2021-09-04T00:00:00.000Z            Hietaniemi                 OG10                 205
+2021-09-05T00:00:00.000Z            Hietaniemi                 OG10                 261
+2021-09-06T00:00:00.000Z            Hietaniemi                 OG10                 249
+2021-09-07T00:00:00.000Z            Hietaniemi                 OG10                 229
+2021-09-08T00:00:00.000Z            Hietaniemi                 OG10                 293
+2021-09-09T00:00:00.000Z            Hietaniemi                 OG10                 326
+2021-09-10T00:00:00.000Z            Hietaniemi                 OG10                 268
+2021-09-11T00:00:00.000Z            Hietaniemi                 OG10                 250
+2021-09-12T00:00:00.000Z            Hietaniemi                 OG10                 140
+2021-09-13T00:00:00.000Z            Hietaniemi                 OG10                 312
+2021-09-14T00:00:00.000Z            Hietaniemi                 OG10                 375
+2021-09-15T00:00:00.000Z            Hietaniemi                 OG10                 285
+2021-09-16T00:00:00.000Z            Hietaniemi                 OG10                 184
+2021-09-17T00:00:00.000Z            Hietaniemi                 OG10                 276
+2021-09-18T00:00:00.000Z            Hietaniemi                 OG10                 248
+2021-09-19T00:00:00.000Z            Hietaniemi                 OG10                 224
+2021-09-20T00:00:00.000Z            Hietaniemi                 OG10                 250
+2021-09-21T00:00:00.000Z            Hietaniemi                 OG10                 279
+2021-09-22T00:00:00.000Z            Hietaniemi                 OG10                 291
+2021-09-23T00:00:00.000Z            Hietaniemi                 OG10                 189
+2021-09-24T00:00:00.000Z            Hietaniemi                 OG10                 136
+2021-09-25T00:00:00.000Z            Hietaniemi                 OG10                 191
+2021-09-26T00:00:00.000Z            Hietaniemi                 OG10                 286
+2021-09-27T00:00:00.000Z            Hietaniemi                 OG10                 265
+2021-09-28T00:00:00.000Z            Hietaniemi                 OG10                 225
+2021-09-29T00:00:00.000Z            Hietaniemi                 OG10                 189
+2021-09-30T00:00:00.000Z            Hietaniemi                 OG10                 238
 
 The number of appearance:
 ===================================
-Number of filtered entries: 60
+Number of filtered entries: 30
 
 All Unique Group IDs:
 ===================================
