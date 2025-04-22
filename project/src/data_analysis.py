@@ -233,7 +233,7 @@ if __name__ == "__main__":
         
         summary_statistics = calculate_summary_statistics(data)
         job_analysis = job_posting_analysis(data)
-        specific_org = "Kasvatus ja oppiminen, Varhaiskasvatus"
+        specific_org = "Kasvatus ja oppiminen, Toisen asteen koulutus"
         job_titles = filter_and_count_job_titles(data, specific_org)
         
         print(f"Number of entries: {count_entries(data)}")
