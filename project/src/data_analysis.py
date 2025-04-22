@@ -202,9 +202,9 @@ def generate_reports(data, summary, analysis, specific_org, job_titles, txt_file
         print(f"Error generating reports: {e}")
 
 # Function to generate a report of expired job postings
-def generate_expired_jobs_report(expired_data, output_file):
+def generate_expired_jobs_report(expired_data, available_data, output_file, output_available):
     try:
-        with open(output_file, 'w') as file:
+        with open(output_file, 'w') as file, open(output_available, 'w') as file1:
             
             file.write(f"Total expired job postings: {len(expired_data)}\n")
             file.write("Expired Job Postings\n")
@@ -217,6 +217,17 @@ def generate_expired_jobs_report(expired_data, output_file):
                 deadline = entry.get('haku_paattyy_pvm', 'Unknown')
                 file.write(f"{title:<35}| {org:<35}| {deadline:>15}\n")
                 
+            file1.write(f"Total Opening job postings: {len(available_data)}\n")
+            file1.write("Expired Job Postings\n")
+            file1.write("=" * 100 + "\n")
+            file1.write(f"{'Job Title':<35}{'Organization':<35}{'Deadline':>15}\n")
+            file1.write("-" * 100 + "\n")
+            for entry in available_data:
+                title = entry.get('tyotehtava', 'Unknown')
+                org = entry.get('organisaatio', 'Unknown')
+                opened = entry.get('haku_paattyy_pvm', 'Unknown')
+                file1.write(f"{title:<35}| {org:<35}| {opened:>15}\n")
+                
         print(f"Expired job postings written to: {output_file}")
     except Exception as e:
         print(f"Failed to write expired jobs report: {e}")
@@ -227,9 +238,10 @@ if __name__ == "__main__":
     data = load_json(url)
     
     if data:
-        deadlines = check_application_deadlines(data)
-        open_data = deadlines['open_postings']
-        expired_data = deadlines['expired_postings']
+        jobs= check_application_deadlines(data)
+        open_data = jobs['open_postings']
+        expired_data = jobs['expired_postings']
+        openinng_data = jobs['open_postings']
         
         summary_statistics = calculate_summary_statistics(data)
         job_analysis = job_posting_analysis(data)
@@ -249,4 +261,7 @@ if __name__ == "__main__":
         
         generate_expired_jobs_report(
             expired_data,
-            'expired_jobs.txt')
+            openinng_data,
+            'expired_jobs.txt',
+            'available_jobs.txt'
+            )
