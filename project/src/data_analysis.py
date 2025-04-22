@@ -215,7 +215,7 @@ def generate_expired_jobs_report(expired_data, output_file):
                 title = entry.get('tyotehtava', 'Unknown')
                 org = entry.get('organisaatio', 'Unknown')
                 deadline = entry.get('haku_paattyy_pvm', 'Unknown')
-                file.write(f"{title:<35}{org:<35}{deadline:>15}\n")
+                file.write(f"{title:<35}| {org:<35}| {deadline:>15}\n")
                 
         print(f"Expired job postings written to: {output_file}")
     except Exception as e:

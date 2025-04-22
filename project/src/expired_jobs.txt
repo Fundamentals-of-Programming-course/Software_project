@@ -1,6 +1,52 @@
-Total expired job postings: 1
+Total expired job postings: 47
 Expired Job Postings
 ====================================================================================================
 Job Title                          Organization                              Deadline
 ----------------------------------------------------------------------------------------------------
-Luokanopettaja, Keimolanmäen koulu Kasvatus ja oppiminen, Perusopetus      2025-04-21
+Päätoiminen tuntiopettaja, kasvatus, Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-22
+Päätoiminen tuntiopettaja, englanti ja ruotsi, Sotungin koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Lastenhoitaja, Illenpihan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Luokanopettaja, Uomarinteen koulu  | Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Varhaiskasvatuksen opettaja, Hämevaaran päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Varhaiskasvatuksen sosionomi, Riihipellon päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Varhaiskasvatuksen opettaja, Riihipellon päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Varhaiskasvatuksen opettaja, Piilipuun yksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Päätoiminen tuntiopettaja, sosiaali- ja yhteiskunta-ala, Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-22
+Päätoiminen tuntiopettaja, matematiikka, fysiikka ja kemia, Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-22
+Varhaiskasvatuksen opettaja (2 paikkaa), Nissaksen päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Varhaiskasvatuksen erityisopettajan sijaisuus, Hevoshaan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Lehtori, englanti, Jokiniemen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Projektityöntekijä, etsivä nuorisotyö| Kaupunkikulttuuri ja hyvinvointi, Nuoriso- ja yhteisöpalvelut|      2025-04-22
+Varhaiskasvatuksen opettaja, Rautkallion päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Sellonsoiton lehtori vs. Vantaan musiikkiopisto| Kaupunkikulttuuri ja hyvinvointi, Elinikäinen oppiminen|      2025-04-22
+Päätoiminen tuntiopettaja, luokanopettaja, Kivimäen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Luokanopettaja, Kivimäen koulu     | Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Erityisasiantuntija, 2 paikkaa, Elinvoimapalvelut, Työllisyys- ja kotoutumispalvelut| Vantaan kaupunki,&nbsp;            |      2025-04-22
+Alueisännöitsijä                   | Kaupunkiympäristö, Kiinteistöt ja tilat|      2025-04-22
+Matematiikan lehtorin sijaisuus lukuvuodeksi, Martinlaakson koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Päätoiminen tuntiopettaja, resurssiopettaja, Askiston koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Kehityksen ja oppimisen tuen lastenhoitaja, Simonkallion päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Yritysneuvojaksi Vantaan elinvoimapalveluihin, 3 paikkaa| Konserninjohto ja elinvoima, Elinvoimapalveluiden palvelualue|      2025-04-22
+Erityisluokanopettaja (vammaisopetus) Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Luokanopettaja, Jokiniemen koulu   | Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Päätoiminen tuntiopettaja, suomi toisena kielenä, Jokiniemen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Luokanopettaja, Jokiniemen koulu   | Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Barnskötare inom småbarnspedagogik, ruotsin kielikylpy, Lauhatien päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Varhaiskasvatuksen opettaja, Koivukylän päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Erityisluokanopettaja, Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Lehtori (matematiikka, fysiikka, yhteiskuntaoppi), Peltolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Socionom inom småbarnspedagogik, Trollebo daghem| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-04-22
+Barnskötare inom småbarnspedagogik, Trollebo daghem| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-04-22
+Lärare inom småbarnspedagogik, Trollebo daghem, Vanda| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-04-22
+Virka-apulaisrehtori, Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Peruskoulun rehtori, Uomarinteen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Virka-apulaisrehtori, Mikkolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Virka-apulaisrehtori, Leppäkorven koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Osaamispalveluesimies, Vantaan ammattiopisto Varia, sosiaali- ja terveysala| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-22
+Matematiikan, fysiikan ja kemian lehtori, Ruusuvuoren koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Erityisluokanopettaja, Ruusuvuoren koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Varhaiskasvatuksen opettaja, Kilterin päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Päätoiminen tuntiopettaja, erityisluokanopettaja, TOI-opetus (2 tehtävää), Rajakylän koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22
+Varhaiskasvatuksen laaja-alainen erityisopettaja, Ulrikan toimintayksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-22
+Lärare inom småbarnspedagogik, Dickursby daghem| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-04-22
+Erityisluokanopettaja, Lehtikuusen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-22

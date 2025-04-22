@@ -1,4 +1,4 @@
-Total number of entries: 141
+Total number of entries: 140
 Most common organization: Kasvatus ja oppiminen, Perusopetus
 Most common job title: Luokanopettaja, Hiekkaharjun koulu
 
@@ -6,17 +6,17 @@ Job Posting Analysis by organization
 =============================================
 Statistics                          | Value
 ---------------------------------------------
-Total postings                      | 141
-Average postings per organization   | 6.71
+Total postings                      | 140
+Average postings per organization   | 6.67
 Minimum postings                    | 1
-Maximum postings                    | 52
-Standard deviation                  | 14.35
+Maximum postings                    | 51
+Standard deviation                  | 14.20
 
 Postings by each organization:
 ====================================================================================================
 Organization                                      Number of job posted
 ----------------------------------------------------------------------------------------------------
-Kasvatus ja oppiminen, Perusopetus                        52
+Kasvatus ja oppiminen, Perusopetus                        51
 Kasvatus ja oppiminen, Varhaiskasvatus                    48
 Kasvatus ja oppiminen, Toisen asteen koulutus             14
 Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen         5
