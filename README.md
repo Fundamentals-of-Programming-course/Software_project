@@ -50,6 +50,7 @@ This Python script analyzes public job postings from the City of Vantaa's open A
    - `report.txt` – Human-readable summary report
    - `report.csv` – CSV-formatted summary
    - `expired_jobs.txt` – Expired job postings
+   - `available_jobs.txt` – Available job postings
 
 ## API Source
 
@@ -95,7 +96,7 @@ Example data entry:
 | `filter_and_count_job_titles(data, org_name)` | Count job titles within a specific organization |
 | `check_application_deadlines(data)` | Identify open and expired job postings |
 | `generate_reports(...)` | Create text and CSV reports |
-| `generate_expired_jobs_report(expired_data, output_file)` | List all expired job entries |
+| `generate_expired_and_Opening_jobs_report(expired_data, available_data, output_file, output_available)` | List all expired and available job entries |
 
 ## Output Example
 
@@ -152,6 +153,18 @@ Example data entry:
   ------------------------------------------------------------------------------
   Kindergarten Teacher            Early Childhood Services         2024-11-30
   ```
+- **availbale_jobs.txt**
+  ```
+  Available Job Postings
+  ==============================================================================
+  Job Title                       Organization                     Deadline
+  ------------------------------------------------------------------------------
+  Kindergarten Teacher            Early Childhood Services         2024-11-30
+  Erityisluokanopettaja           Kasvatus ja oppiminen            2025-05-08
+  Koulunkäynninohjaaja            Kasvatus ja oppiminen            2025-05-08
+  Luokanopettaja 1.lk             Kasvatus ja oppiminen            2025-05-08
+  ```
+
 
 ## Notes
 

@@ -202,7 +202,7 @@ def generate_reports(data, summary, analysis, specific_org, job_titles, txt_file
         print(f"Error generating reports: {e}")
 
 # Function to generate a report of expired job postings
-def generate_expired_jobs_report(expired_data, available_data, output_file, output_available):
+def generate_expired_and_Opening_jobs_report(expired_data, available_data, output_file, output_available):
     try:
         with open(output_file, 'w') as file, open(output_available, 'w') as file1:
             
@@ -218,7 +218,7 @@ def generate_expired_jobs_report(expired_data, available_data, output_file, outp
                 file.write(f"{title:<35}| {org:<35}| {deadline:>15}\n")
                 
             file1.write(f"Total Opening job postings: {len(available_data)}\n")
-            file1.write("Expired Job Postings\n")
+            file1.write("Available Job Postings\n")
             file1.write("=" * 100 + "\n")
             file1.write(f"{'Job Title':<35}{'Organization':<35}{'Deadline':>15}\n")
             file1.write("-" * 100 + "\n")
@@ -259,7 +259,7 @@ if __name__ == "__main__":
             'report.txt', 
             'report.csv')
         
-        generate_expired_jobs_report(
+        generate_expired_and_Opening_jobs_report(
             expired_data,
             openinng_data,
             'expired_jobs.txt',
