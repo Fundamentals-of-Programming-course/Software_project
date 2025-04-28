@@ -362,6 +362,7 @@ project/
 │
 ├── src/
 │   ├── __init__.py
+│   ├── available_jobs.txt
 │   ├── data_analysis.py   # Main script in project
 │   ├── expired_jobs.txt   # Output report
 │   ├── report.csv         # Output report
