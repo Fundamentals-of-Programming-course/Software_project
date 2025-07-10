@@ -1,24 +1,6 @@
-Total expired job postings: 19
+Total expired job postings: 1
 Expired Job Postings
 ====================================================================================================
 Job Title                          Organization                              Deadline
 ----------------------------------------------------------------------------------------------------
-Varhaiskasvatuksen erityisopettaja, Nikkarin päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Swedish teacher / ruotsin kielen opettaja, International School of Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Special education teacher / Erityisopettaja| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Class teacher, International School of Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Chemistry and physics teacher      | Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Craft teacher (textile and woodwork),  International School of Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Espanjan kielen opettaja / Spanish teacher,  International School of Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Päätoiminen tuntiopettaja (uskonto), Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-25
-Varhaiskasvatuksen opettaja Keimolanmäen päiväkotiin| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja, Hiekkaharjun päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja, Isonmännyn päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Lastenhoitaja, Lystilän päiväkoti  | Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Päätoiminen tuntiopettaja, media-ala ja kuvallinen ilmaisu| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-25
-Varhaiskasvatuksen sosionomi, Ylästön päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja, Vapaalan varhaiskasvatusyksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen kehittäjäopettaja| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja Länsimäen päiväkotiin| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja, esiopetus, Länsimäen päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
-Varhaiskasvatuksen opettaja, Vartiokujan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-25
+Päätoiminen tuntiopettaja, luokanopettaja, Jokiniemen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-07-10

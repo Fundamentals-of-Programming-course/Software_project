@@ -1,111 +1,31 @@
-Total Opening job postings: 106
+Total Opening job postings: 26
 Available Job Postings
 ====================================================================================================
 Job Title                          Organization                              Deadline
 ----------------------------------------------------------------------------------------------------
-Erityisluokanopettaja, Hiekkaharjun koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Koulunkäynninohjaaja, Uomarinteen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Luokanopettaja 1.lk, Simonkallion koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Päätoiminen tuntiopettaja, ruotsin ja englannin kieli, Havukosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Koulunkäynninohjaaja, Jokivarren koulu, vammaisopetus| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Class teacher, Teaching in English, International School of Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Koulunkäynninohjaaja, Sotungin koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Lastenhoitajan sijaisuus, Hevoshaan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-08
-Nuoriso-ohjaaja, Valmentava koulutus, Vantaan ammattiopisto Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-08
-Projektikoordinaattori varhaiskasvatuksen ohjausjärjestelmätukitiimiin| Kasvatus ja oppiminen, Yhteiset palvelut|      2025-05-08
-Lastenhoitaja, Kilterin päiväkoti, 3-vuorotyö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-09
-Varhaiskasvatuksen opettaja, Sinirikon päiväkoti, 2-vuorotyö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-08
-Varhaiskasvatuksen opettaja, Suitsikujan varhaiskasvatusyksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-08
-Lastenhoitaja,  Suitsikujan varhaiskasvatusyksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-08
-Koulunkäynninohjaaja, Keimolanmäen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Koulunkäynninohjaaja (vammaisopetus), Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-08
-Päätoiminen tuntiopettaja, turvallisuusala, Vantaan ammattiopisto Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-07
-Luokanopettaja, Jokivarren koulu   | Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Monikielinen ohjaaja, somalin kieli| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Koulunkäynninohjaaja vammaisopetukseen, Rajakylän koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Laaja-alainen erityisopettaja Päiväkummun kouluun| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Monikielinen ohjaaja, arabian kieli| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Luokanopettaja, Rajakylän koulu    | Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Lehtori englanti ja ruotsi, Aurinkokiven koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Varhaiskasvatuksen opettaja, Tammiston päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-09
-Päätoiminen tuntiopettaja (resurssiopettaja), Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Luokanopettaja, Viertolan koulu    | Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Päätoiminen tuntiopettaja, erityisluokanopettaja, Viertolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Erityisluokanopettaja, Viertolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Luokanopettaja, Viertolan koulu    | Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Työelämäpainotteinen ohjaus, Teppo-opo, päätoiminen tuntiopettaja| Kasvatus ja oppiminen, Perusopetus |      2025-05-07
-Lastenhoitaja, Simonmetsän päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-09
-Varhaiskasvatuksen opettaja, 2 paikkaa, Louhelan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-07
-Liikuntapalvelukoordinaattori, Liikkuva päiväkoti toiminta| Kaupunkikulttuuri ja hyvinvointi, Liikunta|      2025-05-07
-Luokanopettaja, ruotsin kielikylpyopetus, Uomarinteen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Luokanopettaja, Länsimäen koulu    | Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Päätoiminen tuntiopettaja erityisluokanopetukseen, Mikkolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Oppilaanohjaaja, Ylästön koulu     | Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Luokanopettaja, valmistava opetus, Havukosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Liikunnan ja terveystiedon päätoiminen tuntiopettaja, Havukosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Päätoiminen tuntiopettaja, oppilaanohjaus ja uskonto, Havukosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-06
-Varhaiskasvatuksen opettaja, Tiedonjyvän päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-06
-Varhaiskasvatuksen opettaja, Tiedonjyvän päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-06
-Varhaiskasvatuksen sosionomi, Tiedonjyvän päiväkoti| Kasvatus ja oppiminen,&nbsp;Varhaiskasvatus|      2025-05-06
-Pilviagentti, työkokeilu, Pilviakatemia| Toimiala: Kaupunkistrategia ja johto / Henkilöstö ja konsernipalvelut / TietohallintoTyöpaikan nimi ja sijainti:&nbsp;Pilviakatemia, Kielotie 28 (katutaso), 01300 VantaaTyönimike: Sovellusneuvoja (työkokeilu)Tehtävän kuvaus- ja sisältö: &nbsp;Oletko kiinnostunut toimimaan IT-alan koulutus- ja tukitehtävissä?&nbsp;Pilviagentit auttavat Vantaan kaupungin työntekijöitä Microsoft 365 &ndash;pilvipalveluiden, mobiililaitteiden sekä muiden IT-laitteiden ja -järjestelmienkäytössä ja hyödyntämisessä. Pilviagenttina työhösi&nbsp;kuuluvat käytönneuvonta- ja opastustehtävät sekä laitteiden asennus- ja käyttöönottotehtäviä. Työ alkaa kattavalla perehdytyksellä, joka antaa hyvät valmiudet alan koulutus- ja tukitehtävissä toimimiseen.Tarjoamme sinulle:Perehdytyksen Microsoft 365 &ndash;tuoteperheeseen ja mobiililaitteisiinTyökokemusta IT-alan koulutus- ja tukitehtävistäMahdollisuuden syventävään koulutuspolkuun esimerkiksi Microsoft Power Platform&ndash;tuotteiden tai suoratoistolähetysten parissaMahdollisuuden Microsoft-sertifikaatin suorittamiseenVinkkejä työnhakuunTyön tekemisessä vaadittava osaaminen:Odotamme sinulta:Jonkin verran tietoteknistä osaamista ja mielenkiintoa alaa kohtaanKykyä omaksua opeteltava asia nopeastiAsiakaspalveluhenkisyyttäKielitaito:&nbsp;Riittävä suomen kielen taito neuvontatyöhön. Koulutus järjestetään suomen kielellä.Työsuhteen kesto:&nbsp;Työkokeilu alkaa 21.7.2025 ja jatkuu 16.1.2026 saakka. Työkokeilujakson tarkoituksena on auttaa siihen osallistuvia työllistymään.Palkka:&nbsp;Palkaton työkokeilu. Työntekijän on mahdollista hakea työttömyysetuutta ja ylläpitokorvausta. työkokeilujakson ajaksi.Muuta huomioitavaa/työn hakemisen edellytykset:&nbsp;Paikat on tarkoitettu työttömille työnhakijoille,&nbsp;Hakuohje:&nbsp;Saat lisätietoa ja pääset mukaan hakuun lähettämällä viestin osoitteeseen pilviakatemia.tyonhaku@vantaa.fiHakuaika:&nbsp; 23.5.2025 saakka|      2025-05-23
-Päätoiminen tuntiopettaja, taideteollisuusala, Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-02
-Erityisluokanopettaja (vammaisopetus), Uomarinteen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-02
-Tiedonhallintakonsultti            | Konserninjohto ja elinvoima, Kuntademokratia|      2025-05-05
-Päiväkodin johtaja, Kaivoksela-Koskikuja toimintayksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Varhaiskasvatuksen opettaja,  Vehnätien päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-06-01
-Lehtori suomen kieli ja kirjallisuus, Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-02
-Lastenhoitaja, Tikkurilan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Avustaja, Solkikujan päiväkoti     | Kasvatus ja oppiminen, VarhaiskasvatusSolkikujan päiväkoti|      2025-05-02
-Lehtori suomen kieli ja kirjallisuus,   Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-02
-Päätoiminen tuntiopettaja (espanja ja englanti), Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-05-02
-Studiehandledare, vikariat         | Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-05-02
-Päätoiminen tuntiopettaja, oma äidinkieli,ukraina, Kuusikon koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-30
-Luokanopettaja, Hiekkaharjun koulu | Kasvatus ja oppiminen, Perusopetus |      2025-04-30
-Päätoiminen tuntiopettaja historia, yhteiskuntaoppi  ja filosofia Vaskivuoren lukio| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-05
-Lastenhoitaja, Lauhatien päiväkoti | Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-05
-Varhaiskasvatuksen opettaja, Autioniityn, Pähkinärinteen tai Pähkinänsärkijän päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-30
-Varhaiskasvatuksen opettaja, Koskikujan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Päätoiminen tuntiopettaja, matematiikka + fysiikka/kemia, Vantaan ammattiopisto Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-06
-Päätoiminen tuntiopettaja, matematiikka + fysiikka/kemia, Vantaan ammattiopisto Varia| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-05-06
-Musiikkiopiston tuntiopettaja, kuoronjohto| Kaupunkikulttuuri ja hyvinvointi, Elinikäinen oppiminen|      2025-05-07
-Luokanopettaja, Jokivarren koulu koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-30
-Varhaiskasvatuksen sosionomi       | Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-30
-Erityisluokanopettaja, Hiekkaharjun koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Kaksi vakituista palveluesihenkilön tehtävää Vantaan kirjastopalveluissa| Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut|      2025-05-05
-Luokanopettaja, Hiekkaharjun koulu | Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Päätoiminen tuntiopettaja, oma äidinkieli nepali, Kuusikon koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Varhaiskasvatuksen opettaja, Kimaran päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Liikunnanohjaaja/ liikuntaneuvoja  | Kaupunkikulttuuri ja hyvinvointi, Liikunta|      2025-04-27
-Lastenhoitaja, Vantaanlaakson päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Erityisluokanopettaja, Rajatorpan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-28
-Varhaiskasvatuksen erityisopettaja, Tammistonrannan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-05
-Päätoiminen tuntiopettaja, luokanopettaja, Rajatorpan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-28
-Päätoiminen tuntiopettaja, oma äidinkieli, viro, Rajatorpan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-28
-Varhaiskasvatuksen sosionomi, Nikinmäen toimintayksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-29
-Varhaiskasvatuksen opettaja, Saturnuksen päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Varhaiskasvatuksen opettaja, Tähdenlennon päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Päätoiminen tuntiopettaja, talotekniikka, putkiasennuksen osaamisala| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-30
-Päätoiminen tuntiopettaja, talotekniikka, ilmanvaihtoasennuksen osaamisala| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-30
-Päätoiminen tuntiopettaja, Tieto- ja viestintätekniikka ja IBCP| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-28
-Päätoiminen tuntiopettaja, Tieto- ja viestintätekniikka| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-04-28
-Luokanopettajan sijaisuus, Ilolan koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-28
-Hanketyöntekijä alkuopetusikäisten lukuinnostajaksi Vantaalle| Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut|      2025-05-08
-Lehtori, englanti, aikuisten perusopetus| Kaupunkikulttuuri ja hyvinvointi, Elinikäinen oppiminen|      2025-04-28
-Museon päällikön tehtävä Vantaan kaupunginmuseossa| Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut|      2025-04-28
-Specialklasslärare, vikariat       | Vanda stad, Fostran och lärande, Serviceomr&aring;det för svenskspr&aring;kiga servicen|      2025-05-05
-Lastenhoitaja, varahenkilö, Martinlaakson ja Vantaanlaakson päiväkodit| Kasvatus ja oppiminen, VarhaiskasvatusMartinlaakson ja Vantaanlaakson päiväkodit|      2025-04-30
-Varhaiskasvatuksen opettaja (2 paikkaa), Nissaksen päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-06
-Erityisluokanopettaja, Jokiniemen koulu| Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Varhaiskasvatuksen opettaja, Martinlaakson päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-30
-Varhaiskasvatuksen opettaja, Kustaantien päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-07
-Vammaisopetuksen erityisluokanopettaja Kanniston koulu Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Varhaiskasvatuksen opettaja Illenpihan päiväkotiin| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-05-02
-Avoin haku varhaiskasvatuksen sosionomin tehtäviin Vantaalle| Kasvatus ja oppiminen, VarhaiskasvatusTyösuhteen kesto: Vakituinen, aloitus 1.8. tai sopimuksen mukaan.|      2025-06-30
-Avoin haku varhaiskasvatuksen opettajan tehtäviin Vantaalle| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-06-30
-Avoin haku varhaiskasvatuksen erityisopettajan tehtäviin Vantaalle| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-06-30
-Varhaiskasvatuksen opettaja, Pesäpuun päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-28
-Varhaiskasvatuksen opettaja, Pesäpuun päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-28
-Varhaiskasvatuksen opettaja, Aurinkokiven päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-30
-Varhaiskasvatuksen opettaja, Seutulan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-04-30
-Vammaisopetuksen erityisluokanopettaja 2 virkaa, Kanniston koulu, Vantaa| Kasvatus ja oppiminen, Perusopetus |      2025-04-29
-Korkeakouluharjoittelija (kulttuurituottaja) kulttuuritalo Martinukseen| Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut|      2025-05-30
+Pysäköinnintarkastaja              | Kaupunkiympäristö, Kadut ja puistot|      2025-08-04
+Innovaatioasiantuntija             | Konserninjohto ja elinvoima, Konsernipalvelut|      2025-08-08
+I-Team Leader, Innovaatiotiimin johtaja| Konserninjohto ja elinvoima, Konsernipalvelut|      2025-08-08
+Data-analyytikko                   | Konserninjohto ja elinvoima, Konsernipalvelut|      2025-08-08
+Yritysneuvoja, Elinvoimapalvelut, määräaikainen| Konserninjohto ja elinvoima, Elinvoimapalveluiden palvelualue|      2025-07-30
+Musiikinohjaaja, sello ja kontrabasso, Vantaan Tempo-orkesteritoiminta| Kaupunkikulttuuri ja hyvinvointi, Kulttuuri- ja kirjastopalvelut|      2025-08-01
+Lastenhoitaja, Urheilupuiston päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-21
+Varhaiskasvatuksen opettaja, Urheilupuiston toimintayksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-30
+Työllisyysasiantuntija             | Konserninjohto ja elinvoima, Työllisyyden ja kotoutumisen palvelualue|      2025-07-15
+Projektipäällikkö, pääkaupunkiseudun ekosysteemisopimus| Konserninjohto ja elinvoima, Elinvoimapalveluiden palvelualue|      2025-08-08
+Varhaiskasvatuksen opettaja, Vallinojan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-15
+Lastenhoitaja, Vallinojan päiväkoti| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-15
+Toimitusjohtaja, Vantti Oy         | Konserniyhteisöt, Vantti Oy        |      2025-08-14
+Työllisyysasiantuntija             | Konserninjohto ja elinvoima, Työllisyyden ja kotoutumisen palvelualue|      2025-07-29
+Lärare i småbarnspedagogik, Mårtensdals daghem| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-08-04
+Varhaiskasvatuksen opettaja, Lauhatien toimintayksikkö| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-30
+Projektipäällikkö, Outbound (Pk-yritysten kasvu ja kansainvälistyminen)| Konserninjohto ja elinvoima, Elinvoimapalveluiden palvelualue|      2025-07-25
+Avainasiakaspäällikkö, Yritysasiakkaat, 3 paikkaa| Konserninjohto ja elinvoima, Elinvoimapalveluiden palvelualue|      2025-08-11
+Kunnossapitoasentaja               | Kasvatus ja oppiminen, Yhteiset palvelut, Kalustonkunnostus|      2025-08-01
+Varhaiskasvatuksen opettaja Kivistön päiväkotiin| Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-25
+Lastenhoitaja, Ojahaan päiväkoti   | Kasvatus ja oppiminen, Varhaiskasvatus|      2025-07-25
+Speciallärare inom småbarnspedagogik, Vanda| Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-08-02
+Opiskeluvalmentaja lukioon, Tikkurilan ja Sotungin lukiot| Kasvatus ja oppiminen, Toisen asteen koulutus|      2025-07-25
+Erityisluokanopettaja Päiväkummun kouluun| Kasvatus ja oppiminen, Perusopetus |      2025-07-28
+Erityisluokanopettaja, Kartanonkosken koulu| Kasvatus ja oppiminen, Perusopetus |      2025-07-24
+Lärare inom småbarnspedagogik      | Vanda stad, Fostran och lärande, Svenskspr&aring;kiga servicen|      2025-08-01
